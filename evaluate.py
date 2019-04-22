@@ -13,7 +13,7 @@ from pcfg import *
 from pcfg import pcfg
 from CYK_PCFG import *
 
-def train_pcfg:
+def train_pcfg():
     pcfg()
     return
 
