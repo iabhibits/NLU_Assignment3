@@ -10,9 +10,12 @@ from PYEVALB import parser
 import pickle
 from CYK_PCFG import Parser
 from pcfg import *
+from pcfg import pcfg
 from CYK_PCFG import *
 
-
+def train_pcfg:
+    pcfg()
+    return
 
 def test_pcfg(test_idx, grammar=None):
     if grammar == None:
